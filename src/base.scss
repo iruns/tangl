@@ -1,0 +1,38 @@
+$primary: #1DE9B6;
+$secondary: #A7FFEB;
+$accent: #FF6D00;
+$error: #F50057;
+$warning: #FF5722;
+$info: #2196f3;
+$success: #009688;
+
+$lightGrey: #f9f9f9;
+$grey: #ababab;
+$darkGrey: #7d7d7d;
+$spacer: 5.3px;
+
+// offline use, for some reason not Working right now
+// @import '../node_modules/material-design-icons/iconfont/material-icons';
+
+#app {
+  font-family: LatoLatinWeb, LatoWeb, Roboto, sans-serif;
+  font-size: 12px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.hidden {
+  display: none;
+}
+
+.category-header {
+  text-transform: uppercase;
+}
